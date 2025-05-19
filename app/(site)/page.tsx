@@ -454,7 +454,7 @@ return (
               </div>
 
               <div className='mt-2' />
-             {/* <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full-10 md:hidden block"/> */}
+             <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full md:hidden block"/>
                <div className='mt-2' />
 
                 <div className='md:[1100px] w-[330px]'>
@@ -471,7 +471,7 @@ return (
               </div>
 
              <div className='mt-2' />
-             {/* <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full-10 md:hidden block"/> */}
+             <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full md:hidden block"/>
                <div className='mt-2' />
 
                 <div className='md:[1100px] w-[330px]'>

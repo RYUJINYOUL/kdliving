@@ -24,7 +24,7 @@ const HeaderDrawer = ({ children }) => {
   <DrawerContent className='w-[320px] h-full'>
   <nav className='w-[320px] h-full border-r-[1px] border-neutral-600 '>
         <div className='p-[24px]'><Logo total={true}/></div>
-        <div className='bg-[#d6b79a] h-full'><Navigator /></div>
+        <div className='bg-[#7f88e8] h-full'><Navigator /></div>
       </nav>
   </DrawerContent>
 </Drawer>
