@@ -70,12 +70,12 @@ return (
        
        <div className='md:mt-7 mt-2' />
 
-       <div className='relative md:hidden block flex flex-row w-full px-3 py-1 justify-start items-start rounded-md gap-1' 
+       <div className='relative md:hidden block flex flex-row w-full px-3 py-1 justify-center items-start rounded-md gap-1' 
        onClick={() => { push("/dae")}} >
           <Image
             alt="mediaItem"
-            className="w-[235px] h-[155px] rounded-md"
-            width={235}
+            className="w-[225px] h-[155px] rounded-md"
+            width={225}
             height={155}
             src={"/Image/mosa0Dia0d.jpeg"}
           />
@@ -83,16 +83,16 @@ return (
          <div className='flex flex-col gap-1'>
           <Image
             alt="mediaItem"
-            className="w-[125px] h-[75px] rounded-md"
-            width={125}
+            className="w-[120px] h-[75px] rounded-md"
+            width={120}
             height={75}
             src={"/Image/mosajs9fUJ.jpeg"}
           />  
 
           <Image
             alt="mediaItem"
-              className="w-[125px] h-[75px] rounded-md"
-            width={125}
+              className="w-[120px] h-[75px] rounded-md"
+            width={120}
             height={75}
             src={"/Image/mosaiMoiDM.jpeg"}
           />  
@@ -147,7 +147,7 @@ return (
           <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[70px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[10px] justify-end'>
-          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>더보기 &nbsp;&gt;</div>
           <hr className="mt-1 h-0.5 hidden md:block border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-[1030px]"/>
        </div>
        </div>
@@ -156,7 +156,7 @@ return (
        
        <div className='md:mt-7' />
 
-      <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
 
        <Image
           alt="mediaItem"
@@ -186,7 +186,7 @@ return (
 
        <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
        <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -215,7 +215,7 @@ return (
 
       <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
        <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -259,7 +259,7 @@ return (
           <div className='md:hidden block flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='mt-3' />
-          <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("대표 상품 소개" ,"/dae")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>더보기 &nbsp;&gt;</div>
           </div>
         </div>  
        </section>
@@ -285,7 +285,7 @@ return (
           <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[110px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[10px] justify-end'>
-          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>더보기 &nbsp;&gt;</div>
           <hr className="mt-1 h-0.5 hidden md:block border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-[990px]"/>
        </div>
        </div>
@@ -293,7 +293,7 @@ return (
       
        <div className='md:mt-7' />
         
-       <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
+       <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
 
         <Image
           alt="mediaItem"
@@ -323,7 +323,7 @@ return (
 
        <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
         <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -352,7 +352,7 @@ return (
 
       <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
          <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -394,7 +394,7 @@ return (
           <div className='md:hidden block flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='mt-3' />
-          <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>더보기 &nbsp;&gt;</div>
        </div>
        </div>
         </section>
@@ -429,7 +429,7 @@ return (
           <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[70px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[20px] justify-end'>
-          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("입실문의" ,"/ta")}}>더보기 &nbsp;&gt;</div>
           <hr className="mt-1 h-0.5 hidden md:block border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-[1030px]"/>
        </div>
        </div>
@@ -440,7 +440,7 @@ return (
         <div>
             <div className="p-5 md:w-[1100px] w-full flex md:flex-row flex-col md:justify-between justify-center md:items-center items-start md:gap-7 gap-1">
               
-              <div className='md:[1100px] w-[350px]'>
+              <div className='md:[1100px] w-[330px]'>
                 <span className="text-[#222222] font-semibold text-[16px]">
                   <a href="/?link=oknt2bfo&messageNo=524&mode=view">단기입실 문의드립니다.</a>
                   </span>
@@ -457,7 +457,7 @@ return (
              <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full md:hidden block"/>
                <div className='mt-2' />
 
-                <div className='md:[1100px] w-[350px]'>
+                <div className='md:[1100px] w-[330px]'>
                 <span className="text-[#222222] font-semibold text-[16px]">
                   <a href="/?link=oknt2bfo&messageNo=524&mode=view">단기입실 문의드립니다.</a>
                   </span>
@@ -474,7 +474,7 @@ return (
              <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full md:hidden block"/>
                <div className='mt-2' />
 
-                <div className='md:[1100px] w-[350px]'>
+                <div className='md:[1100px] w-[330px]'>
                 <span className="text-[#222222] font-semibold text-[16px]">
                   <a href="/?link=oknt2bfo&messageNo=524&mode=view">단기입실 문의드립니다.</a>
                   </span>
@@ -497,7 +497,7 @@ return (
           <div className='md:hidden block flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='md:mt-3 mt-3' />
-          <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("입실문의" ,"/ta")}}>더보기 &nbsp;&gt;</div>
        </div>
        </div>
      </section>
@@ -538,7 +538,7 @@ return (
        </div>
 
        <div className='flex flex-col md:gap-5 gap-0'>
-         <div className='md:w-[1100px] w-full md:px-0 px-3 flex md:flex-row flex-col justify-start items-start gap-5 rounded-md'>
+         <div className='md:w-[1100px] w-full md:px-0 px-3 flex md:flex-row flex-col justify-center items-start gap-5 rounded-md'>
               <Image
                   alt="mediaItem"
                   className="w-full h-[350px] hidden md:block rounded-md"
@@ -572,7 +572,7 @@ return (
                 </div>  
       </div>
 
-      <div className='md:w-[1100px] w-full md:px-0 px-3 flex md:flex-row flex-col justify-start items-start gap-5 rounded-md'>
+      <div className='md:w-[1100px] w-full md:px-0 px-3 flex md:flex-row flex-col justify-center items-start gap-5 rounded-md'>
           <div className='flex w-[350px] flex-col gap-3'>
               <Image
                 alt="mediaItem"
@@ -606,7 +606,7 @@ return (
           />  
         </div>  
        
-       <div className='md:w-[1100px] w-full md:px-0 px-3 flex md:flex-row flex-col justify-start items-start gap-5 rounded-md'>
+       <div className='md:w-[1100px] w-full md:px-0 px-3 flex md:flex-row flex-col justify-center items-start gap-5 rounded-md'>
               <Image
                   alt="mediaItem"
                   className="w-full h-[350px] hidden md:block rounded-md"

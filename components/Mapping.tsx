@@ -36,7 +36,7 @@ const Mapping = () => {
           <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[70px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[20px] justify-end'>
-          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("오시는길" ,"/map")}}>더보기 &nbsp;&gt;</div>
           <hr className="mt-1 h-0.5 hidden md:block border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-[1030px]"/>
        </div>
        </div>
@@ -201,7 +201,7 @@ const Mapping = () => {
           <div className='md:hidden block flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 md:hidden block border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='md:mt-3 mt-3' />
-          <div className='lg:text-end text-center md:hidden block text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
+          <div className='lg:text-end text-center md:hidden block text-[14px]' onClick={() => {onClickCategory("오시는길" ,"/map")}}>더보기 &nbsp;&gt;</div>
        </div>
        </div>
      </div>
