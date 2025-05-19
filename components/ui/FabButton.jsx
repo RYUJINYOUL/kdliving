@@ -83,7 +83,7 @@ const FabButton = () => {
           </ul>
         )}
       {/* </div> */}
-      <button className="bg-[#cdad8f] w-13 h-13 xs:w-11 xs:h-11 text-white rounded-full shadow-lg transition-transform hover:scale-110" onClick={shownSubMenuHandler}>
+      <button className="bg-[#7f88e8] w-13 h-13 xs:w-11 xs:h-11 text-white rounded-full shadow-lg transition-transform hover:scale-110" onClick={shownSubMenuHandler}>
         {openSubMenu ? <h1>{"x"}</h1> : <h1>{"+"}</h1>}
       </button>
 

@@ -23,7 +23,7 @@ const Gallery = ({ images }: GalleryProps) => {
   const mainImage = useMemo(
     () =>
       images.map((image, index) => (
-        <CarouselItem key={index} className="relative aspect-video w-full">
+        <CarouselItem key={index} className="relative aspect-video w-sceen h-screen">
           <Image
             src={image}
             alt={`Carousel Main Image ${index + 1}`}
@@ -98,7 +98,7 @@ const Gallery = ({ images }: GalleryProps) => {
         {/* <div className="left-[500px]"> */}
         <CarouselPrevious className="left-2" />
         <CarouselNext className="right-2" />
-         <Carousel className="absolute left-1 bottom--20 pt-2" setApi={setThumbnailApi}>
+         <Carousel className="absolute left-0 bottom-80 pt-2" setApi={setThumbnailApi}>
         <CarouselContent>{thumbnailImages}</CarouselContent>
       </Carousel>      
         {/* </div> */}

@@ -42,7 +42,7 @@ const page = () => {
  
 
 return (
-    <div className='w-screen h-screen flex items-center justify-center'>
+    <div className='w-screen bg-[#000000C9] h-screen flex items-center justify-center'>
       <Gallery images={slides} />
    </div>
    
