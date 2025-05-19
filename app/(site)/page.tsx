@@ -159,7 +159,7 @@ return (
 
        <Image
           alt="mediaItem"
-        className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+        className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosawJnOJr.jpeg"}
@@ -168,7 +168,7 @@ return (
 
         <Image
           alt="mediaItem"
-          className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+          className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosa37JnzD.jpeg"}
@@ -176,7 +176,7 @@ return (
 
         <Image
           alt="mediaItem"
-           className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+           className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosazD0onx.jpeg"}
@@ -188,7 +188,7 @@ return (
       <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
        <Image
           alt="mediaItem"
-        className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+        className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosaXzIaZ6.jpeg"}
@@ -197,7 +197,7 @@ return (
 
         <Image
           alt="mediaItem"
-          className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+          className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosau658pi.jpeg"}
@@ -205,7 +205,7 @@ return (
 
         <Image
           alt="mediaItem"
-           className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+           className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosaIYUwQ9.jpeg"}
@@ -217,7 +217,7 @@ return (
       <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
        <Image
           alt="mediaItem"
-        className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+        className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosatpNBJw.jpeg"}
@@ -226,7 +226,7 @@ return (
 
         <Image
           alt="mediaItem"
-          className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+          className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosap47im9.jpeg"}
@@ -234,7 +234,7 @@ return (
 
         <Image
           alt="mediaItem"
-           className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+           className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosaYkiage.jpeg"}
@@ -296,7 +296,7 @@ return (
 
         <Image
           alt="mediaItem"
-        className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+        className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosapTi9lG.jpeg"}
@@ -305,7 +305,7 @@ return (
 
         <Image
           alt="mediaItem"
-          className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+          className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosa0tPNd1.jpeg"}
@@ -313,7 +313,7 @@ return (
 
         <Image
           alt="mediaItem"
-           className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+           className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosazzlRst.jpeg"}
@@ -325,7 +325,7 @@ return (
       <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
         <Image
           alt="mediaItem"
-        className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+        className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosad2oAnf.jpeg"}
@@ -334,7 +334,7 @@ return (
 
         <Image
           alt="mediaItem"
-          className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+          className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosa8DNMqr.jpeg"}
@@ -342,7 +342,7 @@ return (
 
         <Image
           alt="mediaItem"
-           className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+           className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosaUg4MYi.jpeg"}
@@ -354,7 +354,7 @@ return (
       <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
          <Image
           alt="mediaItem"
-        className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+        className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosazV1S1U.jpeg"}   
@@ -363,7 +363,7 @@ return (
 
         <Image
           alt="mediaItem"
-          className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+          className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosaZppelt.jpeg"}
@@ -371,7 +371,7 @@ return (
 
         <Image
           alt="mediaItem"
-           className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+           className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
           width={350}
           height={350}
           src={"/Image/mosao63LFE.jpeg"}

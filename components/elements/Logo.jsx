@@ -3,9 +3,11 @@ import React from 'react'
 import useUIState from "@/hooks/useUIState";
 import { useRouter } from 'next/navigation'
 import { cn } from "@/lib/utils";
+import { usePathname } from 'next/navigation'
 
 function Logo(props) {
     const { push } = useRouter();
+    const pathname = usePathname()
     const { homeCategory, setHomeCategory, setHeaderImageSrc, headerImageSrc} = useUIState();
     let total = props
     const onClickLogo = () =>{
@@ -26,7 +28,7 @@ function Logo(props) {
            
             <div className={cn('font-semibold md:text-[22px] text-[18px] text-white cursor-pointer', 
             total.total&&"text-black",
-            headerImageSrc !== "/"&&"text-black",
+            pathname!=="/"&&"text-black",
           )}
              onClick={onClickLogo}>강대리빙텔 강대고시텔 고시원</div>
         </div>

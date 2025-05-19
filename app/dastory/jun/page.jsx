@@ -93,7 +93,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -102,7 +102,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -116,7 +116,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -125,7 +125,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -139,7 +139,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -148,7 +148,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -163,7 +163,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -172,7 +172,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -187,7 +187,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -196,7 +196,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}

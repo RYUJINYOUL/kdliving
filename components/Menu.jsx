@@ -105,7 +105,7 @@ const slideRight = () => {
 };
   
   return (
-    <nav id="nav" className="md:m-0 ml-5 w-full+10 flex gap-3 overflow-x-auto md:pr-0 pr-4">
+    <nav id="nav" className="md:m-0 md:px-60 ml-5 w-full+10 flex gap-3 overflow-x-auto md:pr-0 pr-4">
     {homeCategoryList.map((item, i) => {
       return (
         <div
@@ -115,10 +115,10 @@ const slideRight = () => {
           className={cn(
             "h-[62px] md:text-[16px] text-[15px] lg:text-white text-[#ffffff80] min-w-fit px-2 flex justify-center items-center hover:bg-gray-100",
             total.total&&"md:text-black text-[#ffffff80]",
-            headerImageSrc !== "/"&&"lg:text-black",
+            pathname !== "/"&&"lg:text-black",
             item.label === homeCategory &&
               "underline underline-offset-8 md:text-[17px] text-[16px] lg:text-[#7f88e8] text-white font-medium",
-            headerImageSrc === "/"&&total.total&&"lg:text-black"
+            pathname === "/"&&total.total&&"lg:text-black"
           )}
         >
             {item.label}

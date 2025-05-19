@@ -18,9 +18,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { cn } from "@/lib/utils";
 
 
-
-
-
 const HeaderDrawer = ({ children }) => {
   return (<Drawer direction='left'>
   <DrawerTrigger>{children}</DrawerTrigger>
@@ -79,7 +76,7 @@ const Header2 = ({children}) => {
    <section className={cn('absolute w-full top-0 left-0 flex h-[62px] z-10 items-start md:justify-center sm:justify-between', 
     isScrolled&&"md:bg-white bg-[#7f88e8]", 
     homeCategory === "시설둘러보기"&&"lg:h-[101px] h-[103px]",
-    headerImageSrc !== "/"&&"md:bg-white bg-[#7f88e8]"
+    pathname !== "/"&&"md:bg-white bg-[#7f88e8]"
     )}>
       
    <div className='flex flex-col'>

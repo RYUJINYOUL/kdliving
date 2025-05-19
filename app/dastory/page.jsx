@@ -49,7 +49,7 @@ function page (){
          
                  <Image
                    alt="mediaItem"
-                   className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                   className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosapTi9lG.jpeg"}
@@ -58,7 +58,7 @@ function page (){
          
                  <Image
                    alt="mediaItem"
-                   className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                   className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosa0tPNd1.jpeg"}
@@ -88,7 +88,7 @@ function page (){
                <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
                  <Image
                    alt="mediaItem"
-                 className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+                 className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosad2oAnf.jpeg"}
@@ -97,7 +97,7 @@ function page (){
          
                  <Image
                    alt="mediaItem"
-                   className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+                   className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosa8DNMqr.jpeg"}
@@ -105,7 +105,7 @@ function page (){
          
                  <Image
                    alt="mediaItem"
-                    className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+                    className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosaUg4MYi.jpeg"}
@@ -117,7 +117,7 @@ function page (){
                <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-start items-start md:gap-7 gap-1 rounded-md'>
                   <Image
                    alt="mediaItem"
-                 className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+                 className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosazV1S1U.jpeg"}   
@@ -126,7 +126,7 @@ function page (){
          
                  <Image
                    alt="mediaItem"
-                   className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+                   className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosaZppelt.jpeg"}
@@ -134,7 +134,7 @@ function page (){
          
                  <Image
                    alt="mediaItem"
-                    className="md:w-[350px] md:h-[350px] w-[118px] h-[118px] rounded-md"
+                    className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
                    width={350}
                    height={350}
                    src={"/Image/mosao63LFE.jpeg"}
@@ -185,7 +185,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -194,7 +194,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -208,7 +208,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -217,7 +217,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -231,7 +231,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -240,7 +240,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -255,7 +255,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -264,7 +264,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
@@ -279,7 +279,7 @@ function page (){
          
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosapTi9lG.jpeg"}
@@ -288,7 +288,7 @@ function page (){
                   
                           <Image
                             alt="mediaItem"
-                            className="md:w-[536px] md:h-[536px] w-[178px] h-[178px] rounded-md"
+                            className="md:w-[536px] md:h-[536px] w-[170px] h-[170px] rounded-md"
                             width={350}
                             height={350}
                             src={"/Image/mosa0tPNd1.jpeg"}
