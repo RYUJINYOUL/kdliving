@@ -158,7 +158,7 @@ const review = () => {
 
 
   return (
-    <div className="flex items-center justify-start p-12">
+    <div className="flex items-center justify-start p-2 pt-10">
     <div className="mx-auto w-full max-w-[550px] bg-white">
        <div className='font-medium text-lg' style={{ textAlign: 'center' }}>
       <h3>글쓰기</h3>

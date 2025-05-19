@@ -28,12 +28,14 @@ const page = () => {
 return (
      
     <div>
-  
+   {/* ---모바일간격--- */}
       <section className='md:hidden block'>
           <hr className="h-2.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 md:w-[1000px] w-screen"/>
-      </section>    
+      </section>   
+    {/* ---간격--- */}    
 
-      <div className='md:mb-18 mb-4' />
+    <div className='md:mb-18 mb-4' />
+
 
      <section className='w-full flex flex-row items-center justify-center'>
       <div className="w-[1100px] md:block hidden items-center justify-center gap-1">
@@ -52,8 +54,8 @@ return (
      </section> 
  
 
-  {/* ---start--- */}
-     <section className='md:hidden block flex flex-col justify-center items-center'>
+  {/* ---갤러리 사진링크 열기 닫기--- */}
+     <section className='md:hidden flex flex-col justify-center items-center'>
       
       <div className='flex flex-col'>
       <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
@@ -62,7 +64,7 @@ return (
               <HiPhone className='mt-1.5 text-[18px] text-[#000000]'/>
               <div className='lg:text-start font-semibold text-center text-[20px] text-[#000000]'>010-8799-5999</div>
             </div>
-          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[70px] dark:opacity-50"/>
+          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 opacity-100 w-[70px] dark:opacity-50"/>
        </div>
        </div>
        </div>
@@ -70,7 +72,7 @@ return (
        
        <div className='md:mt-7 mt-2' />
 
-       <div className='relative md:hidden block flex flex-row w-full px-3 py-1 justify-center items-start rounded-md gap-1' 
+       <div className='relative md:hidden flex flex-row w-full px-3 py-1 justify-center items-start rounded-md gap-1' 
        onClick={() => { push("/dae")}} >
           <Image
             alt="mediaItem"
@@ -113,7 +115,7 @@ return (
              <div className={cn('hidden text-[15px] text-[#222222] md:hidden truncate text-start', widths&&"block")}>
             ** 밥. 김치 제공 (고시텔 - 101동)</div>
           <div className='md:mt-10 mt-2' />
-          <div className='md:hidden block flex flex-col h-[40px] justify-end'>
+          <div className='md:hidden flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='md:mt-10 mt-3' />
           <div className='lg:text-end text-center text-[14px]' onClick={() => { widths ? setWidths(false) : setWidths(true)}}>{widths === false ? "열기" : "닫기"} &nbsp;</div>
@@ -124,7 +126,7 @@ return (
 
 
 
-    {/* ---start--- */}
+    {/* ---모바일간격--- */}
       <section className='md:hidden block'>
       <div className='md:mb-18 mb-1'></div>
        <hr className="h-2.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 md:w-[1000px] w-screen"/>
@@ -137,14 +139,14 @@ return (
 
 
    
-    {/* ---start--- */}
+    {/* ---이용안내 start--- */}
     <section className='flex flex-col justify-center items-center'>
       
       <div className='flex flex-col'>
       <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
           <div className='lg:px-0 px-3 flex flex-col h-[40px] justify-end'>
           <div className='lg:text-start font-semibold text-center text-[20px] md:text-[#7f88e8] text-[#000000]'>이용안내</div>
-          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[70px] dark:opacity-50"/>
+          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 opacity-100 w-[70px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[10px] justify-end'>
           <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>더보기 &nbsp;&gt;</div>
@@ -186,7 +188,7 @@ return (
 
        <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
        <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -215,7 +217,7 @@ return (
 
       <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
        <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -256,7 +258,7 @@ return (
             주방 냉장고, 전자렌지, 인덕션, 정수기, 식탁 엘리베이터, 도어락, CCTV, 화재감지기,경보기</div>
          
           <div className='md:mt-10 mt-0' />
-          <div className='md:hidden block flex flex-col h-[40px] justify-end'>
+          <div className='md:hidden flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='mt-3' />
           <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>더보기 &nbsp;&gt;</div>
@@ -275,14 +277,14 @@ return (
        <div className='md:mb-18 mb-4'></div>
     
 
-      {/* ---start--- */}  
+      {/* ---시설둘러보기 start--- */}  
        <section className='flex flex-col justify-center items-center'>
       
       <div className='flex flex-col'>
       <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
           <div className='lg:px-0 px-3 flex flex-col h-[40px] justify-end'>
           <div className='lg:text-start font-semibold text-center text-[20px] md:text-[#7f88e8] text-[#000000]'>시설둘러보기</div>
-          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[110px] dark:opacity-50"/>
+          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 opacity-100 w-[110px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[10px] justify-end'>
           <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>더보기 &nbsp;&gt;</div>
@@ -323,7 +325,7 @@ return (
 
        <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
         <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -352,7 +354,7 @@ return (
 
       <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden block md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
          <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -381,7 +383,7 @@ return (
 
        <div className='md:mt-0 mt-7' />
 
-       <div className='flex flex-col md:block hidden'>
+       <div className='flex flex-col md:block'>
           <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
           <div className='lg:px-0 px-3 flex flex-col h-[40px] justify-end'>
           <div className='lg:text-start font-semibold text-center text-[20px] text-[#222222]'>[ 강원도 춘천시 효자동 174-1 ]</div>
@@ -391,7 +393,7 @@ return (
 
         
         <div className='flex flex-col md:w-[530px] w-full px-3'>
-          <div className='md:hidden block flex flex-col h-[40px] justify-end'>
+          <div className='md:hidden flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='mt-3' />
           <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>더보기 &nbsp;&gt;</div>
@@ -426,7 +428,7 @@ return (
       <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
           <div className='lg:px-0 px-3 flex flex-col h-[40px] justify-end'>
           <div className='lg:text-start font-semibold text-center text-[20px] md:text-[#7f88e8] text-[#000000]'>입실문의</div>
-          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[70px] dark:opacity-50"/>
+          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 opacity-100 w-[70px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[20px] justify-end'>
           <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("입실문의" ,"/ta")}}>더보기 &nbsp;&gt;</div>
@@ -494,7 +496,7 @@ return (
 
         
         <div className='flex flex-col md:w-[530px] w-full px-3'>
-          <div className='md:hidden block flex flex-col h-[40px] justify-end'>
+          <div className='md:hidden flex flex-col h-[40px] justify-end'>
           <hr className="mt-1 h-0.5 border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='md:mt-3 mt-3' />
           <div className='lg:text-end text-center text-[14px]' onClick={() => {onClickCategory("입실문의" ,"/ta")}}>더보기 &nbsp;&gt;</div>
@@ -518,7 +520,7 @@ return (
       <div className='flex md:flex-row flex-col md:justify-between items-start lg:w-[1100px] w-screen'>
           <div className='lg:px-0 px-3 flex flex-col md:h-[40px] h-[0px] justify-end'>
           <div className='lg:text-start md:block hidden font-semibold text-center text-[20px] text-[#7f88e8]'>이미지 갤러리</div>
-          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 bg-neutral-700 opacity-100 w-[110px] dark:opacity-50"/>
+          <hr className="mt-1 h-0.5 md:bg-[#7f88e8] bg-white border-t-0 opacity-100 w-[110px] dark:opacity-50"/>
        </div>
        <div className='flex flex-col md:h-[40px] h-[0px] justify-end'>
           <div className='lg:text-end md:block hidden text-center text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>
@@ -530,7 +532,7 @@ return (
        <div className='md:mt-7' />
     
         <div className='flex flex-col md:w-[530px] w-full'>
-          <div className='md:hidden block flex flex-col md:h-[40px] h-[0px] justify-end'>
+          <div className='md:hidden flex flex-col md:h-[40px] h-[0px] justify-end'>
           <hr className="mt-1 h-0.5 md:block hidden border-t-0 bg-neutral-200 opacity-100 dark:opacity-50 w-full"/>
           <div className='md:mt-3 mt-3' />
           <div className='lg:text-end text-center md:block hidden text-[14px]' onClick={() => {onClickCategory("내부시설" ,"/si")}}>더보기 &nbsp;&gt;</div>

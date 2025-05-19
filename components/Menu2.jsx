@@ -73,7 +73,7 @@ const slideRight = () => {
 };
   
   return (
-    <nav id="nav2" className="md:m-0 md:px-60 ml-5 w-full+10 flex gap-2 overflow-x-auto md:pr-0 pr-4">
+    <nav id="nav2" className="md:m-0 md:px-100 ml-5 w-full+10 flex gap-2 overflow-x-auto md:pr-0 pr-4">
     {homeCategoryList.map((item, i) => {
       return (
         <div
