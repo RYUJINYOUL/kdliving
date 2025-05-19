@@ -70,7 +70,8 @@ return (
        
        <div className='md:mt-7 mt-2' />
 
-       <div className='relative md:hidden block flex flex-row w-full px-3 py-1 justify-start items-start rounded-md gap-1'>
+       <div className='relative md:hidden block flex flex-row w-full px-3 py-1 justify-start items-start rounded-md gap-1' 
+       onClick={() => { push("/dae")}} >
           <Image
             alt="mediaItem"
             className="w-[235px] h-[155px] rounded-md"

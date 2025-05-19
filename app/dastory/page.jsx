@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import Footer from '@/components/Footer'
 import Phone from '@/components/ui/phone';
-
+import { BsTelephone } from "react-icons/bs";
 
 function page (){
   return (

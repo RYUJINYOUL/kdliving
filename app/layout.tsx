@@ -9,10 +9,10 @@ import FabButton from '@/components/ui/FabButton';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "다함단식하우스",
+  title: "강대리빙텔 강대고시텔",
 
   icons: {
-		icon: "/Image/logo.jpeg",
+		icon: "/Image/mainmiddle.jpeg",
 	},
 };
 
