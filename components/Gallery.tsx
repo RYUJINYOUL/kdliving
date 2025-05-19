@@ -98,7 +98,7 @@ const Gallery = ({ images }: GalleryProps) => {
         {/* <div className="left-[500px]"> */}
         <CarouselPrevious className="left-2" />
         <CarouselNext className="right-2" />
-         <Carousel className="absolute left-0 bottom-80 pt-2" setApi={setThumbnailApi}>
+         <Carousel className="absolute left-0 bottom-0 pt-2" setApi={setThumbnailApi}>
         <CarouselContent>{thumbnailImages}</CarouselContent>
       </Carousel>      
         {/* </div> */}
