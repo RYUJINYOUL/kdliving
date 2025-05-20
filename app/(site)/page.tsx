@@ -158,7 +158,7 @@ return (
        
        <div className='md:mt-7' />
 
-      <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>
 
        <Image
           alt="mediaItem"
@@ -188,7 +188,7 @@ return (
 
        <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>
        <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -217,7 +217,7 @@ return (
 
       <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md' onClick={() => {onClickCategory("이용안내" ,"/dastory")}}>
        <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -295,7 +295,7 @@ return (
       
        <div className='md:mt-7' />
         
-       <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+       <div className='md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>
 
         <Image
           alt="mediaItem"
@@ -325,7 +325,7 @@ return (
 
        <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>
         <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -354,7 +354,7 @@ return (
 
       <div className='md:mt-0 mt-1'/>
 
-      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md'>
+      <div className='md:hidden md:w-[1100px] w-full md:px-0 px-3 flex flex-row justify-center items-start md:gap-7 gap-1 rounded-md' onClick={() => {onClickCategory("시설둘러보기" ,"/dastory/pro")}}>
          <Image
           alt="mediaItem"
         className="md:w-[350px] md:h-[350px] w-[110px] h-[110px] rounded-md"
@@ -442,7 +442,7 @@ return (
         <div>
             <div className="p-5 md:w-[1100px] w-full flex md:flex-row flex-col md:justify-between justify-center md:items-center items-start md:gap-7 gap-1">
               
-              <div className='md:[1100px] w-[330px]'>
+              <div className='md:[1100px] w-[330px]' onClick={() => {onClickCategory("입실문의" ,"/ta")}}>
                 <span className="text-[#222222] font-semibold text-[16px]">
                   <a href="/?link=oknt2bfo&messageNo=524&mode=view">단기입실 문의드립니다.</a>
                   </span>
@@ -460,7 +460,7 @@ return (
                <div className='mt-2' />
 
                 <div className='md:[1100px] w-[330px]'>
-                <span className="text-[#222222] font-semibold text-[16px]">
+                <span className="text-[#222222] font-semibold text-[16px]" onClick={() => {onClickCategory("입실문의" ,"/ta")}}>
                   <a href="/?link=oknt2bfo&messageNo=524&mode=view">단기입실 문의드립니다.</a>
                   </span>
                 <div className='mt-3 md:block hidden md:[1100px] w-full'/>
@@ -477,7 +477,7 @@ return (
                <div className='mt-2' />
 
                 <div className='md:[1100px] w-[330px]'>
-                <span className="text-[#222222] font-semibold text-[16px]">
+                <span className="text-[#222222] font-semibold text-[16px]" onClick={() => {onClickCategory("입실문의" ,"/ta")}}>
                   <a href="/?link=oknt2bfo&messageNo=524&mode=view">단기입실 문의드립니다.</a>
                   </span>
                 <div className='mt-3 md:block hidden md:[1100px] w-full'/>
